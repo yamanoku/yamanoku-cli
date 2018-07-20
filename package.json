@@ -21,7 +21,7 @@
 		"lint": "eslint src"
 	},
 	"lint-staged": {
-		"**/*.js": [
+		"**/*..{js,json,md}": [
 			"prettier-eslint --write",
 			"eslint --fix",
 			"git add"

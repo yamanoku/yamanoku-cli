@@ -17,8 +17,8 @@ meow(`
 const __dirname = path.resolve(path.dirname(''))
 
 const fallback = async () => {
-	const image = await terminalImage.file(path.join(__dirname, 'avatar.png'))
-	console.log(image)
+    const image = await terminalImage.file(path.join(__dirname, 'avatar.png'))
+    console.log(image)
 }
 
 termImg(path.join(__dirname, 'avatar.png'), { fallback })
