@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"description": "Oyama Michinoku CLI",
 	"license": "MIT",
-	"repository": "yamanoku/sindresorhus",
+	"repository": "yamanoku/yamanoku",
 	"author": {
 		"name": "Okuto -Michinoku- Oyama",
 		"email": "0910yama@gmail.com",
@@ -24,10 +24,20 @@
 			"prettier --write",
 			"git add"
 		]
-	},  
+	},
 	"files": [
 		"source"
 	],
+	"babel": {
+		"plugins": [
+			[
+				"transform-react-jsx",
+				{
+					"pragma": "h"
+				}
+			]
+		]
+	},
 	"keywords": [
 		"cli-app",
 		"cli",
@@ -44,6 +54,7 @@
 		"terminal-image": "^0.1.0"
 	},
 	"devDependencies": {
+		"babel-plugin-transform-react-jsx": "^6.24.1",
 		"eslint-config-xo-react": "^0.16.0",
 		"eslint-plugin-react": "^7.7.0",
 		"execa": "^0.10.0",
