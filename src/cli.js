@@ -14,8 +14,6 @@ meow(`
     $ yamanoku
 `)
 
-const __dirname = path.resolve(path.dirname(''))
-
 const fallback = async () => {
     const image = await terminalImage.file(path.join(__dirname, 'avatar.png'))
     console.log(image)
