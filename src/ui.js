@@ -21,6 +21,10 @@ const items = [
         url: 'https://yamanoku.net',
     },
     {
+        label: 'Curriculum Vitae',
+        url: 'https://github.com/yamanoku/Curriculum-Vitae',
+    },
+    {
         label: 'Twitter',
         url: 'https://twitter.com/yamanoku',
     },
@@ -35,10 +39,6 @@ const items = [
     {
         label: 'npm',
         url: 'https://www.npmjs.com/~yamanoku',
-    },
-    {
-        label: 'Tumblr',
-        url: 'https://yamanoku.tumblr.com/',
     },
     {
         label: '🎁  Wishlist 🎁',
