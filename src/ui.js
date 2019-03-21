@@ -54,16 +54,14 @@ const items = [
 
 module.exports = () => (
     <div>
-        <br />
         <div>
-            <Text>
-                I'm Okuto Oyama a.k.a. Oyama Michinoku, yamanoku. 👨‍👩‍👧 🐈🐈🐈
-            </Text>
+            <Text>I'm Okuto Oyama a.k.a. Oyama Michinoku, yamanoku</Text>
             <br />
             <br />
             <Text>
-                FrontEnd Designer, UI Design Proposer, Writter, Document
-                Translater, Internet Watcher
+                PLAID, Inc.
+                <br />
+                Design Engineer, Accessibility Advocator
             </Text>
         </div>
         <br />
