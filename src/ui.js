@@ -25,6 +25,10 @@ const items = [
         url: 'https://github.com/yamanoku/Curriculum-Vitae',
     },
     {
+        label: 'Reading...',
+        url: 'https://reading.yamanoku.net',
+    },
+    {
         label: 'Twitter',
         url: 'https://twitter.com/yamanoku',
     },
