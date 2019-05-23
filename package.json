@@ -55,7 +55,7 @@
     "terminal-image": "0.1.2"
   },
   "devDependencies": {
-    "babel-eslint": "8.2.6",
+    "babel-eslint": "10.0.1",
     "babel-plugin-transform-react-jsx": "6.24.1",
     "eslint": "4.19.1",
     "eslint-plugin-node": "7.0.1",
