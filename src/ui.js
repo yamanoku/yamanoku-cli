@@ -1,6 +1,8 @@
 'use strict'
-const { h, Text } = require('ink') // eslint-disable-line
-const SelectInput = require('ink-select-input') // eslint-disable-line
+const path = require('path') // eslint-disable-line
+const React = require('react') // eslint-disable-line
+const { Box, Text } = require('ink') // eslint-disable-line
+const SelectInput = require('ink-select-input').default // eslint-disable-line
 const opn = require('opn')
 
 const open = url => opn(url, { wait: false })
@@ -15,7 +17,14 @@ const handleSelect = item => {
     }
 }
 
-const items = [
+const createItems = items => {
+    for (const item of items) {
+        item.key = item.url || item.label
+    }
+    return items
+}
+
+const items = createItems([
     {
         label: 'Website',
         url: 'https://yamanoku.net',
@@ -54,21 +63,19 @@ const items = [
             process.exit() // eslint-disable-line
         },
     },
-]
+])
 
 module.exports = () => (
-    <div>
-        <div>
-            <Text>I'm Okuto Oyama a.k.a. Oyama Michinoku, yamanoku</Text>
-            <br />
-            <br />
-            <Text>
-                PLAID, Inc.
-                <br />
-                Design Engineer, Accessibility Advocator
-            </Text>
-        </div>
-        <br />
+    <Box flexDirection="column">
+        <Box marginBottom={1}>
+            <Text>Okuto Oyama a.k.a. Oyama Michinoku, yamanoku</Text>
+        </Box>
+        <Box>
+            <Text>PLAID, Inc</Text>
+        </Box>
+        <Box marginBottom={1}>
+            <Text>Design Engineer, Accessibility Advocator</Text>
+        </Box>
         <SelectInput items={items} onSelect={handleSelect} />
-    </div>
+    </Box>
 )
