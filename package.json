@@ -45,7 +45,7 @@
     "yamanoku"
   ],
   "dependencies": {
-    "import-jsx": "2.0.0",
+    "import-jsx": "3.0.0",
     "ink": "2.3.0",
     "ink-link": "1.0.0",
     "ink-select-input": "3.1.2",
