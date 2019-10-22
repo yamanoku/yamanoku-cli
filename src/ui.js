@@ -71,7 +71,7 @@ module.exports = () => (
             <Text>Okuto Oyama a.k.a. Oyama Michinoku, yamanoku</Text>
         </Box>
         <Box>
-            <Text>PLAID, Inc</Text>
+            <Text>CrowdWorks, Inc.</Text>
         </Box>
         <Box marginBottom={1}>
             <Text>Design Engineer, Accessibility Advocator</Text>
