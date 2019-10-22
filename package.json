@@ -17,7 +17,7 @@
   },
   "scripts": {
     "fmt": "prettier-eslint --write '**/*.{js,json,md}'",
-    "lint": "eslint src"
+    "test": "eslint src"
   },
   "lint-staged": {
     "src/*.js": [
