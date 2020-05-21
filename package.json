@@ -52,7 +52,7 @@
     "meow": "7.0.1",
     "opn": "5.5.0",
     "react": "16.13.1",
-    "term-img": "4.1.0",
+    "term-img": "5.0.0",
     "terminal-image": "1.0.1"
   },
   "devDependencies": {
