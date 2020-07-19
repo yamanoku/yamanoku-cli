@@ -1,6 +1,4 @@
-# yamanoku
-
-[![Build Status](https://travis-ci.org/yamanoku/yamanoku-cli.svg?branch=master)](https://travis-ci.org/yamanoku/yamanoku)
+# yamanoku-cli
 
 > yamanoku CLI
 
