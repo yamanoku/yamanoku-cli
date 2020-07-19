@@ -5,9 +5,9 @@ const { Box, Text } = require('ink') // eslint-disable-line
 const SelectInput = require('ink-select-input').default // eslint-disable-line
 const opn = require('opn')
 
-const open = url => opn(url, { wait: false })
+const open = (url) => opn(url, { wait: false })
 
-const handleSelect = item => {
+const handleSelect = (item) => {
     if (item.url) {
         open(item.url)
     }
@@ -17,7 +17,7 @@ const handleSelect = item => {
     }
 }
 
-const createItems = items => {
+const createItems = (items) => {
     for (const item of items) {
         item.key = item.url || item.label
     }
@@ -74,7 +74,7 @@ module.exports = () => (
             <Text>CrowdWorks, Inc.</Text>
         </Box>
         <Box marginBottom={1}>
-            <Text>Design Engineer, Accessibility Advocator</Text>
+            <Text>FrontEnd Designer, Accessibility Advocator</Text>
         </Box>
         <SelectInput items={items} onSelect={handleSelect} />
     </Box>
